@@ -43,7 +43,7 @@
 	// WARNING if using the \ key, it needs to be escaped, e.g. "log_section_toggle": ["\\"]
 	// 3) / \ , . # ' [ ] ; = -
 	// 3) F1-F12
-	// 4) backspace, tab, backtab, delete, end, esc, home, insert, pagedown, pageup, left, right, up, down
+	// 4) backspace, tab, backtab, delete, end, esc, home, insert, pagedown, pageup, left, right, up, down, space
 	// Each definition can have two keys associated with it
 	// WARNING "scroll_many" only accepts control, alt, shift, with no secondary option
 	// If any key clashes are found, oxker will revert to it's default keymap
@@ -158,6 +158,14 @@
 		// Toggle mouse capture
 		"toggle_mouse_capture": [
 			"m"
+		],
+		// Mark the selected container, docker commands are then sent to all marked containers
+		"toggle_mark": [
+			"space"
+		],
+		// Mark, or unmark, all containers
+		"mark_all": [
+			"a"
 		],
 		// Reduce the height of the logs list section
 		"log_section_height_decrease": [

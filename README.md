@@ -115,7 +115,9 @@ In application controls, these, amongst many other settings, can be customized w
 | ```( ↑ ↓ )``` or ```( j k )``` or ```( Home End )```| Scroll line in selected panel - mouse wheel will also scroll.|
 | ```( ← → )``` | Scroll horizontally across text.|
 | ```( ctrl )``` | Increase scroll speed, used in conjunction with scroll keys.|
-| ```( enter )```| Run selected docker command.|
+| ```( enter )```| Run selected docker command, on all marked containers if any are marked.|
+| ```( space )``` | Mark the selected container, and move to the next one.|
+| ```( a )``` | Mark, or unmark, all containers.|
 | ```( 1-9 )``` | Sort containers by heading, clicking on headings also sorts the selected column. |
 | ```( 0 )``` | Stop sorting.|
 | ```( F1 )``` or ```( / )``` | Enter filter mode. |
@@ -129,7 +131,7 @@ In application controls, these, amongst many other settings, can be customized w
 | ```( m )``` | Toggle mouse capture - if disabled, text on screen can be selected.|
 | ```( q )``` | Quit.|
 | ```( s )``` | Save logs to `$HOME/[container_name]_[timestamp].log`, or the directory set by `--save-dir`.|
-| ```( esc )``` | Close dialog.|
+| ```( esc )``` | Close dialog, or unmark all containers.|
 
 Available command line arguments
 
